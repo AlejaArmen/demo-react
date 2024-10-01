@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lobster: ["Lobster", "cursive"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
